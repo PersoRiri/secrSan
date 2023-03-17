@@ -11,17 +11,18 @@ body{
 }
 
 .green-div{
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   margin: 30px auto;
-  background-color: rgb(99, 246, 14);
+  background: url("./macr.png") no-repeat;
+  background-size: contain;
 }
 
 .green-div:hover{
   cursor: pointer;
 }
 .nulos{
-  background-color: black;
+  background: none;
   width: 90%;
   margin: 0 auto;
   text-align: center;
